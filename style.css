@@ -1,0 +1,131 @@
+
+
+:root{
+
+     --text-primary: #0B0223;
+     --b-primary: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+     --nl:#3C354F;
+     --follow-one: rgba(11, 2, 35, 0.10);
+     --bg-one: #FFF;
+     --heading-first: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     --small-text: #534C64;
+     --btn: #4EC5F7;
+
+
+
+
+
+     --box-shadow:0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+
+/* 01 header section start */
+/* navber start */
+nav{
+     background-color: var(--bg-one);
+     box-shadow: var(--box-shadow);
+     z-index: 999;
+}
+nav .navber{
+     max-width: 1440px;
+     margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem 2rem;
+}
+/* 01 */
+.logo{
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     gap: 1rem;
+}
+.logo p{
+     font-size: 2.6rem;
+     font-family: Work Sans;
+     font-weight: 700;
+     color: var(--text-primary);
+}
+.logo p span{
+     color: var(--b-primary);
+}
+/* 2 */
+nav ul{
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     gap: 2.8rem;
+}
+ul li{
+     color: var(--nl);
+     font-family: Work Sans;
+     font-size: 1.5rem;
+     font-weight: 500;
+}
+.follow{
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     gap: 2rem;
+     border-radius: .5rem;
+     background: var(--follow-one);
+     padding: 1.5rem 2rem;
+     color: var(--nl);
+     font-family: Work Sans;
+     font-size: 1.5rem;
+     font-weight: 500;
+}
+/* navber end */
+
+/* banner start */
+/* .banner-heading{
+     background-image: url('./images/Group\ 14.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+} */
+.banner-section{
+     display:flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.banner-heading, .banner-img{
+     width: 50%;
+}
+
+.banner-heading p{
+     color: var(--text-primary);
+     font-family: Work Sans;
+     font-size: 4rem;
+     font-weight: 600;
+     text-transform: uppercase;
+}
+.banner-heading h1{
+     font-family: Work Sans;
+     font-size: 7rem;
+     font-weight: 800;
+     text-transform: uppercase;
+     background: var(--heading-first);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+.banner-heading .small-group{
+     padding: 2rem 0 3rem 0;
+}
+.banner-heading small{
+     color: var(--small-text);
+     font-family: Work Sans;
+     font-size: 1.6rem;
+     font-weight: 500;
+     text-transform: lowercase;
+     display: block;
+     padding: .5rem 0;
+}
+.btn-group{
+     display:flex;
+     gap: 2rem;
+}
+/* banner end */
+/* 01 header section end */

@@ -31,11 +31,45 @@
      html{
           font-size: 45%;
      }
+     /* navber */
+     nav{
+          box-shadow: none;
+          padding-top: 4.5rem;
+     }
+     nav .navber, nav ul{
+          flex-direction: column;
+          gap: 5rem;
+     }
+     /* banner */
+     .banner-section{
+          flex-direction: column;
+     }
+     .banner-section .banner-heading{
+          background-image: url('./images/Group\ 14.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          padding: 8rem 0;
+          width: 100%;
+          order: 2;
+          text-align: center;
+     }
+     .banner-section .banner-img{
+          width: 100%;
+          order: 1;
+     }
+     .btn-group{
+          justify-content: center;
+     }
     
 }
 
 
-
+@media screen and (max-width: 350px){
+     html{
+          font-size: 35%;
+     }
+}
 
 
 

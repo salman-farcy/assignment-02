@@ -6,3 +6,49 @@ html{
      padding: 0;
      box-sizing: border-box;
 }
+:root{
+
+     --text-primary: #0B0223;
+     --b-primary: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+     --nl:#3C354F;
+     --follow-one: rgba(11, 2, 35, 0.10);
+     --bg-one: #FFF;
+     --heading-first: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     --small-text: #534C64;
+     --btn: #4EC5F7;
+
+     --box-shadow:0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+a{
+     text-decoration: none;
+}
+li{
+     list-style: none;
+}
+img{
+     width: 100%;
+}
+section{
+     padding: 0 2rem;
+}
+.container{
+     max-width: 1440px;
+     margin: 0 auto;
+     
+}
+
+.btn-primary{
+     display: inline-block;
+     color: var(--bg-one);
+     font-family: Work Sans;
+     font-size: 1.5rem;
+     font-weight: 600;
+     text-transform: uppercase;
+     padding: 1.3rem 3.5rem;
+     border-radius: 5rem;
+     background: var(--b-primary);
+}
+.btn{
+     background: var(--btn);
+}
