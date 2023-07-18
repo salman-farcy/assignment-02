@@ -1,0 +1,57 @@
+/* @media screen and (max-width: 1200px){
+     html{
+          font-size: 55.5%;
+     }
+} */
+
+
+
+
+
+/*01 laptop responsive design */
+@media screen and (max-width: 992px){
+     html{
+          font-size: 52.5%;
+     }
+     
+    
+}
+
+/*02 tablet responsive design */
+@media screen and (max-width: 768px){
+     html{
+          font-size: 50%;
+     }
+    
+
+}
+
+/*03 mobile responsive design */
+@media screen and (max-width: 576px){
+     html{
+          font-size: 45%;
+     }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 350px){
+     html{
+          font-size: 35%;
+     }
+     
+} */
