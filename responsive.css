@@ -72,7 +72,27 @@
           text-align: center;
      }
      /* 03 Online Games end */
-    
+
+     /* 05 Play Games start */
+     .play-games-start{
+          flex-direction: column-reverse;
+     }
+     .play-games-start .play-gamesh{
+          width: 100%;
+     }
+     .play-games-start .play-games-title{
+          width: 100%;
+     }
+     /* 05 Play Games end */
+     .play-games-start{
+          gap: 5rem;
+     }
+     .play-games-title{
+          text-align: center;
+     }
+     .play-games-title p{
+          margin: 0 auto;
+     }
 }
 
 
