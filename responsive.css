@@ -61,6 +61,17 @@
      .btn-group{
           justify-content: center;
      }
+
+
+     /* 03 Online Games start */
+     .online-games-section .online-game-images{
+          grid-template-columns: 1fr;
+          gap: 2.5rem;
+     }
+     .game-card-img p{
+          text-align: center;
+     }
+     /* 03 Online Games end */
     
 }
 

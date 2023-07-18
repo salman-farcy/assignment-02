@@ -104,7 +104,7 @@ ul li{
 .banner-heading h1{
      font-family: Work Sans;
      font-size: 7rem;
-     font-weight: 800;
+     font-weight: 900;
      text-transform: uppercase;
      background: var(--heading-first);
      background-clip: text;
@@ -129,3 +129,60 @@ ul li{
 }
 /* banner end */
 /* 01 header section end */
+
+
+
+
+
+
+
+/* 03 Online Games start */
+.online-games-atart{
+     padding: 8rem 2rem 4rem 2rem;
+
+}
+.online-games-section .online-game-titel{
+     text-align: center;
+}
+.online-game-titel h2{
+     color: var(--text-primary);
+     font-family: Work Sans;
+     font-size: 3.5rem;
+     font-weight: 700;
+     line-height: normal;
+}
+.online-game-titel h2 span{
+     background: var(--heading-first);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     font-family: Work Sans;
+     font-size: 3.5rem;
+     font-weight: 700;
+     line-height: normal;
+}
+.online-game-titel p{
+     color: #534C64;
+     text-align: center;
+     font-family: Work Sans;
+     font-size: 1.5rem;
+     font-weight: 400;
+     line-height: 2rem;
+     padding: 1rem 0;
+}
+.online-games-section .online-game-images{
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 2rem;
+     padding-top: 3.5rem;
+}
+.game-card-img p{
+     color: #534C64;
+     font-family: Work Sans;
+     font-size: 1.5rem;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 2.4rem; 
+     padding-top: 2rem;
+}
+/* 03 Online Games end */
