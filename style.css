@@ -10,6 +10,7 @@
      --heading-first: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
      --small-text: #534C64;
      --btn: #4EC5F7;
+     --background-overlay: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), lightgray 50% / cover no-repeat;
 
 
 
@@ -35,20 +36,22 @@ nav .navber{
     padding: 2.5rem 2rem;
 }
 /* 01 */
-.logo{
+.logo a{
      display:flex;
      align-items: center;
      justify-content: center;
      gap: 1rem;
+     cursor: pointer;
 }
 .logo p{
      font-size: 2.6rem;
      font-family: Work Sans;
      font-weight: 700;
      color: var(--text-primary);
+     cursor: pointer;
 }
 .logo p span{
-     color: var(--b-primary);
+     color: #F948B2;
 }
 /* 2 */
 nav ul{
@@ -57,11 +60,16 @@ nav ul{
      justify-content: center;
      gap: 2.8rem;
 }
-ul li{
+ul li a{
      color: var(--nl);
      font-family: Work Sans;
      font-size: 1.5rem;
-     font-weight: 500;
+     font-weight: 600;
+     cursor: pointer;
+     transition: .3s ease;
+}
+ul li a:hover{
+     color: #F948B2;
 }
 .follow{
      display:flex;
@@ -75,6 +83,16 @@ ul li{
      font-family: Work Sans;
      font-size: 1.5rem;
      font-weight: 500;
+}
+.follow .youtube{
+     color: red;
+     font-size: 2.3rem;
+     cursor: pointer;
+}
+.follow .tiktok{
+     font-size: 2.3rem;
+     color: var(--text-primary);
+     cursor: pointer;
 }
 /* navber end */
 
@@ -173,7 +191,43 @@ ul li{
      gap: 2rem;
      padding-top: 3.5rem;
 }
-.game-card-img p{
+/* overlay */
+.game-card-img{
+     position: relative;
+     cursor: pointer;
+}
+.game-card-img .overlay{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width:100%;
+     height: 100%;
+     transition: all .4s ease 0s;
+}
+.game-card-img:hover .overlay{
+     background: #2120249f;
+     border-radius: 1.2rem;
+     border: .4rem solid #FF45A8;
+}
+.game-card-img .overlay i{
+     position: absolute;
+     font-size: 4rem;
+     color: var(--bg-one);
+     left: 25%;
+     top: 25%;
+     transform: translate(-50%, -50%);
+     transition: all .4s ease 0s;
+     opacity: 0;
+     visibility: hidden;
+}
+.game-card-img:hover .overlay i{
+     opacity: 1;
+     visibility: visible;
+     left: 50%;
+     top: 50%;
+}
+
+.imagesh-para p{
      color: #534C64;
      font-family: Work Sans;
      font-size: 1.5rem;
@@ -286,7 +340,7 @@ footer{
 .footer-section{
      text-align: center;
 }
-.footer-logo{
+.footer-logo a{
      display:flex;
      align-items: center;
      justify-content: center;
@@ -304,7 +358,9 @@ footer{
      line-height: normal;
      color: var(--bg-one);
 }
-
+.footer-logo p span{
+     color: #FF42A5;
+}
 .catagory{
      display:flex;
      align-items: center;
@@ -319,6 +375,13 @@ footer{
      line-height: normal;
      padding: 3rem 0;
 }
+.catagory-child a, .Privacy-heading a, .socile-child a{
+     color: var(--bg-one);
+     transition: .3s ease;
+}
+.catagory-child a:hover, .Privacy-heading:hover a, .socile-child:hover a{
+     color: #F948B2;
+}
 .socile{
      display:flex;
      align-items: center;
@@ -328,6 +391,7 @@ footer{
      font-size: 3rem;
      color: var(--bg-one);
 }
+
 .Privacy-Policy{
      display:flex;
      align-items: center;
