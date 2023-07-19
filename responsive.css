@@ -31,7 +31,7 @@
           flex-direction: column;
           gap: 5rem;
      }
-     /* banner */
+     /* banner start*/
      .banner-section{
           flex-direction: column;
      }
@@ -52,6 +52,31 @@
      .btn-group{
           justify-content: center;
      }
+     /* banner end*/ 
+
+
+     /* We are gamer start */
+     .we-are-gamer{
+          flex-direction: column;
+     }
+     .we-are-gamer .gamer-all-imagesh{
+          width: 100%;
+     }
+     .we-are-gamer .we-are-gamer-dtail{
+          width: 100%;
+     }
+     .we-are-gamer .we-are-gamer-dtail{
+          display:flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+     }
+     .we-are-gamer-dtail p{
+          text-align: center;
+     }
+     /* We are gamer start */
+
+
      /* 03 Online Games start */
      .online-games-section .online-game-images{
           grid-template-columns: repeat(2, 1fr);
@@ -106,7 +131,26 @@
      .btn-group{
           justify-content: center;
      }
-
+     /* We are gamer start */
+     .we-are-gamer{
+          flex-direction: column;
+     }
+     .we-are-gamer .gamer-all-imagesh{
+          width: 100%;
+     }
+     .we-are-gamer .we-are-gamer-dtail{
+          width: 100%;
+     }
+     .we-are-gamer .we-are-gamer-dtail{
+          display:flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+     }
+     .we-are-gamer-dtail p{
+          text-align: center;
+     }
+     /* We are gamer start */
 
      /* 03 Online Games start */
      .online-games-section .online-game-images{

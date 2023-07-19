@@ -10,8 +10,7 @@
      --heading-first: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
      --small-text: #534C64;
      --btn: #4EC5F7;
-     --background-overlay: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), lightgray 50% / cover no-repeat;
-
+     --background-gemer: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 
 
 
@@ -121,13 +120,14 @@ ul li a:hover{
 }
 .banner-heading h1{
      font-family: Work Sans;
-     font-size: 7rem;
+     font-size: 6rem;
      font-weight: 900;
      text-transform: uppercase;
      background: var(--heading-first);
      background-clip: text;
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
+     word-break: break-word;
 }
 .banner-heading .small-group{
      padding: 2rem 0 3rem 0;
@@ -141,6 +141,10 @@ ul li a:hover{
      display: block;
      padding: .5rem 0;
 }
+.banner-heading small i{
+     padding-right: 1rem;
+     color: #F948B2;
+}
 .btn-group{
      display:flex;
      gap: 2rem;
@@ -150,9 +154,67 @@ ul li a:hover{
 /* 01 header section end */
 
 
-
-
-
+/* 02 We are gamer start */
+.gamer-start-now{
+     background: var(--background-gemer);
+}
+.we-are-gamer{
+     display:flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 4rem;
+}
+.we-are-gamer .gamer-all-imagesh{
+     width: 50%;
+}
+.we-are-gamer .we-are-gamer-dtail{
+     width: 50%;
+}
+.we-are-gamer-dtail h2{
+     text-align: right;
+     font-family: Work Sans;
+     font-size: 3.5rem;
+     font-weight: 700;
+     line-height: normal;
+     background: var(--heading-first);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+.we-are-gamer-dtail p{
+     color: var(--small-text);
+     text-align: right;
+     font-family: Work Sans;
+     font-size: 1.4rem;
+     font-weight: 400;
+     line-height: 2.5rem; 
+     padding-top: 2rem;
+     
+}
+.we-are-gamer-dtail-btn{
+     padding: 2.4rem 0;
+     text-align: right;
+}
+.we-are-gamer-dtail b{
+     color: var(--small-text);
+     font-family: Work Sans;
+     font-size: 2.3rem;
+     font-weight: 700;
+     line-height: 3.5rem;
+     
+}
+.we-are-gamer-dtail b small{
+     color: var(--small-text);
+     text-align: right;
+     font-family: Work Sans;
+     font-size: 1.8rem;
+     font-weight: 500;
+     line-height: 3.5rem;
+}
+.we-are-gamer-dtail .unick-text{
+     text-align: right;
+}
+/* 02 We are gamer end */
 
 
 /* 03 Online Games start */
