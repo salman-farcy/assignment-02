@@ -17,6 +17,7 @@ nav{
      background-color: var(--bg-one);
      box-shadow: var(--box-shadow);
      z-index: 999;
+     
 }
 nav .navber{
      max-width: 1440px;
@@ -24,7 +25,8 @@ nav .navber{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2.5rem 2rem;
+    padding: 2rem 2rem;
+    
 }
 /* 01 */
 .logo a{
