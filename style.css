@@ -301,6 +301,63 @@ ul li a:hover{
 /* 03 Online Games end */
 
 
+/* 04 Play Instantly start */
+.play-instantly-section{
+     display:flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 9rem;
+}
+.play-instantly-section .play-instantly-titel{
+     width: 50%;
+}
+.play-instantly-section .play-instantly-imagesh{
+     width: 50%;
+     text-align: right;
+}
+/* 2 */
+.play-instantly-imagesh{
+     position: relative;
+     
+}
+.short-imagesh{
+     position: absolute;
+     width: 30%;
+     left: -1%;
+     bottom: -10%;
+     /* transform: translate(-50%, -50%); */
+}
+.play-instantly-imagesh > img{
+     width: 90%;
+}
+
+.play-instantly-titel h2{
+     text-align: right;
+     font-family: Work Sans;
+     font-size: 3.5rem;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 4rem; 
+}
+.play-instantly-titel h2 span{
+     background: var(--heading-first);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+.play-instantly-titel p{
+     color: var(--small-text);
+     text-align: right;
+     font-family: Work Sans;
+     font-size: 1.3rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 2rem; 
+     
+}
+
+/* 04 Play Instantly end */
+
 
 /* 05 Play Games start */
 .play-games-start{

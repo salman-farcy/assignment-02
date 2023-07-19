@@ -82,6 +82,24 @@
           grid-template-columns: repeat(2, 1fr);
           gap: 2.5rem;
      }
+     /* 03 Online Games end */
+
+
+     /* Play Instantly start  */
+     .play-instantly-section{
+          flex-direction: column;
+          gap: 4rem;
+     }
+
+     .play-instantly-section .play-instantly-titel{
+          width: 100%;
+     }
+     .play-instantly-section .play-instantly-imagesh{
+          width: 100%;
+     }
+     /* Play Instantly end  */
+
+
      /* 05 Play Games start */
      .play-games-start{
           flex-direction: column-reverse;
