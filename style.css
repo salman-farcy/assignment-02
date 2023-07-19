@@ -126,6 +126,7 @@ ul li{
 .btn-group{
      display:flex;
      gap: 2rem;
+     flex-wrap: wrap;
 }
 /* banner end */
 /* 01 header section end */
@@ -137,10 +138,6 @@ ul li{
 
 
 /* 03 Online Games start */
-.online-games-atart{
-     padding: 8rem 2rem 4rem 2rem;
-
-}
 .online-games-section .online-game-titel{
      text-align: center;
 }
@@ -240,3 +237,41 @@ ul li{
      line-height: 2.3rem;
 }
 /* 05 Play Games end */
+
+
+/* 06 suggestion section start */
+.suggestion-section{
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     gap: 5rem;
+     flex-wrap: wrap;
+     padding-top: 4rem;
+}
+.suggestion-child{
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     gap: 1rem;
+     cursor: pointer;
+     padding: .6rem;
+     border-radius: 4rem;
+     background: #f7f6f6;
+}
+.suggestion-child:hover{
+     outline: 2px solid #FF42A5;
+     color: #FF42A5;
+}
+
+.suggestion-child img{
+     width:3.6rem;
+     height:3.6rem;
+}
+.suggestion-child p{
+     color: var(--text-primary);
+     font-family: Work Sans;
+     font-size: 1.3rem;
+     font-weight: 600;
+     line-height: normal;
+}
+/* 06 suggestion section end */

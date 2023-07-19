@@ -93,6 +93,11 @@
      .play-games-title p{
           margin: 0 auto;
      }
+     /* suggestion */
+     .suggestion-section{
+          gap: 1.5rem;
+          padding-top: 2.5rem;
+     }
 }
 
 
