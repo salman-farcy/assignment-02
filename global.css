@@ -7,7 +7,6 @@ html{
      box-sizing: border-box;
 }
 :root{
-
      --text-primary: #0B0223;
      --b-primary: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
      --nl:#3C354F;
@@ -16,12 +15,7 @@ html{
      --heading-first: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
      --small-text: #534C64;
      --btn: #4EC5F7;
-     --background-overlay: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), lightgray 50% / cover no-repeat;
-
-
-
-
-
+     --background-gemer: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
      --box-shadow:0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
