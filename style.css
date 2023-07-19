@@ -26,7 +26,7 @@ nav .navber{
     align-items: center;
     justify-content: space-between;
     padding: 2rem 2rem;
-    
+
 }
 /* 01 */
 .logo a{
@@ -431,7 +431,7 @@ ul li a:hover{
      justify-content: center;
      gap: 5rem;
      flex-wrap: wrap;
-     padding-top: 4rem;
+     padding: 5rem 0;
 }
 .suggestion-child{
      display:flex;
